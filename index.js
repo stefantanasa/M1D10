@@ -8,3 +8,5 @@ let object22 = {
   surname: "Tanasa",
   email: "st@gmail.com",
 };
+
+delete object22.email;
