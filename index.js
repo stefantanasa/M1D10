@@ -33,3 +33,10 @@ for (i = 0; i < array.length; i++) {
 }
 
 console.log(`max: ${max} min${min}`);
+
+let arraysOfArrays = [];
+for (i = 0; i < 10; i++) {
+  number = Math.floor(Math.random() * 10);
+  arraysOfArrays.push(arraysOfArrays);
+}
+console.log(arraysOfArrays);
