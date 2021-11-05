@@ -10,3 +10,4 @@ let object22 = {
 };
 
 delete object22.email;
+let array = "this is a string with 10 items in it !".split(" ");
