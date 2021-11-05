@@ -22,3 +22,14 @@ for (i = 0; i < 100; i++) {
   array100.push(number);
 }
 console.log(array100);
+max = array100[0];
+min = 1000;
+for (i = 0; i < array.length; i++) {
+  if (array100[i] > max) {
+    max = array100[i];
+  } else if (array[i] <= min) {
+    min = array100[i];
+  }
+}
+
+console.log(`max: ${max} min${min}`);
