@@ -15,3 +15,10 @@ let array = "this is a string with 10 items in it !".split(" ");
 for (i = 0; i < array.length; i++) {
   console.log(array[i]);
 }
+
+let array100 = [];
+for (i = 0; i < 100; i++) {
+  number = Math.floor(Math.random() * 1000);
+  array100.push(number);
+}
+console.log(array100);
